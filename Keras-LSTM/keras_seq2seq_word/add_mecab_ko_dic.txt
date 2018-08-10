@@ -1,0 +1,7 @@
+1. cd /mecab-ko-dic-XXX/userdic
+2. 새로운 파일 생성(aion.csv)
+3. sudo nano aion.csv
+4. 단어 추가 ->  종성이 있을 경우 T, 없을 경우 F
+5. cd /mecab-ko-dic-XXX
+6. tools/add-userdic.sh
+7. sudo make install
