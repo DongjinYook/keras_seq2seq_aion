@@ -38,6 +38,6 @@ $ sudo make install
 git clone https://bitbucket.org/eunjeon/mecab-python-0.996.git
 cd mecab-python-0.996
 
-python setup.py build
+python3 setup.py build
 
-sudo python setup.py install --prefix=/home/dongjin/anaconda3/env/my_1.8
+sudo python3 setup.py install --prefix=/home/dongjin/anaconda3/envs/my_1.8
